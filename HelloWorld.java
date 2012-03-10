@@ -1,4 +1,4 @@
-// A spectacularly simple program to print "Hello World!" to standard output.
+// A simple java program to print "Hello World!" to standard output.
 // Written by Sam Whelan
 
 public class HelloWorld
