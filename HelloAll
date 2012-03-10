@@ -1,0 +1,22 @@
+#!/bin/bash
+# A simple script to print out all the HelloWorld programs
+set -v
+
+javac HelloWorldJava.java
+java HelloWorld java
+
+gcc -o HelloWorldC -ansi HelloWorldC.c
+./HelloWorldC
+
+g++ -o HelloWorldC++ -ansi HelloWorldC++.cpp
+./HelloWorldC++
+
+python HelloWorldPython.py
+
+gmcs HelloWorldC#.cs 
+mono HelloWorldC#.exe
+
+clisp HelloWorldLisp.lisp 
+
+perl HelloWorldPerl.pl 
+
